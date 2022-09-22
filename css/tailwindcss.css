@@ -16,4 +16,78 @@
   .mobilebg {
     background-color: #f6f6f6;
   }
+  .text-hero {
+    color: #252b42;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+  }
+  .paragraph {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+  }
+  .paragraph-choose {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    width: 270px;
+    height: 114px;
+  }
+  .text-choose {
+    color: #252b42;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    width: 250px;
+    height: 114px;
+  }
+  .bg-button-primary {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    background: #ffa62b;
+  }
+  .bg-btn-secondary {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #00a0c1;
+    border: 1px solid #00a0c1;
+  }
+  .bg-hero-gray--white {
+    background-color: #fafafa;
+  }
+  .text-card {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+  }
+  .card {
+    border: 1px solid #e8e8e8;
+  }
+  .card-header {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252b42;
+  }
 }
