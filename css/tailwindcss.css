@@ -90,4 +90,22 @@
     letter-spacing: 0.1px;
     color: #252b42;
   }
+  .care {
+    background: #f3f3f3;
+  }
+  .blue {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+  }
+  .cover {
+  }
+  .btn {
+    position: absolute;
+    width: 97.6px;
+    height: 98.4px;
+    left: calc(50% - 97.6px / 2 - 0.2px);
+    top: calc(50% - 98.4px / 2 + 0.2px);
+  }
 }
