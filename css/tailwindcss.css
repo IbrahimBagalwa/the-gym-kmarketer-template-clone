@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .text-color {
+    color: #737373;
+    line-height: 45px;
+    letter-spacing: 0.2px;
+  }
+  .kmarketer {
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252b42;
+  }
+  .mobilebg {
+    background-color: #f6f6f6;
+  }
+}
