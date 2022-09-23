@@ -105,4 +105,30 @@
     left: calc(50% - 97.6px / 2 - 0.2px);
     top: calc(50% - 98.4px / 2 + 0.2px);
   }
+  .paragraph-card {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    width: 270px;
+  }
+  .text-name {
+    color: #ffa62b;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+  }
+  .prof {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252b42;
+  }
+  .border-prof {
+    border: 2px solid #e8e8e8;
+  }
 }
