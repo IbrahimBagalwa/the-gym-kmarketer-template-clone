@@ -8,7 +8,7 @@
     <title>kmarketer</title>
   </head>
   <body>
-    <div class="grid mobilebg">
+    <div class="grid bg-[#f6f6f6] md:hidden">
       <div class="flex justify-around py-10">
         <div class="kmarketer font-bold text-4xl col-span-2">KMarketer</div>
         <div class="flex space-x-6 mt-2 col-span-2">
@@ -26,32 +26,60 @@
         </ul>
       </div>
     </div>
-    <div class="px-20 py-10 bg-hero-gray--white">
-      <h2 class="text-hero py-4">
+    <div
+      class="hidden md:grid md:grid-cols-8 items-center justify-between p-20"
+    >
+      <div class="kmarketer font-bold text-4xl col-span-3">KMarketer</div>
+      <div class="flex justify-start md:col-span-4 space-x-2 mr-4">
+        <a href="#" class="text-center text-3xl text-color">Home</a>
+        <a href="#" class="text-center text-3xl text-color">Product</a>
+        <a href="#" class="text-center text-3xl text-color">Pricing</a>
+        <a href="#" class="text-center text-3xl text-color">Contact</a>
+        <img class="p-2" src="./asserts/search.svg" alt="Search" />
+        <img src="./asserts/cart.svg" alt="cart" />
+      </div>
+      <div class="flex span-col-1 justify-end">
+        <img src="./asserts/menu.svg" alt="menu" />
+      </div>
+    </div>
+    <div
+      class="grid justify-center px-20 md:text-center py-10 bg-hero-gray--white"
+    >
+      <h2
+        class="text-hero py-4 md:py-0 md:w-[700px] md:font-extrabold md:font-w"
+      >
         Experts are here solve your business problem.
       </h2>
-      <h4 class="paragraph py-5">
+      <h4
+        class="paragraph md:text-center content-center py-5 md:py-2 md:w-[420px----] md:items-center"
+      >
         We know how large objects will act, but things on a small scale just do
         not act that way.
       </h4>
-      <div class="flex flex-col items-center space-y-4">
-        <button class="border rounded-full bg-button-primary px-3">
+      <div
+        class="flex flex-col items-center space-y-4 md:space-y-0 md:gap-2 md:flex-row md:justify-center"
+      >
+        <button
+          class="border rounded-full bg-button-primary px-3 md:py-2 md:px-8 items-center"
+        >
           Get cot now
         </button>
-        <button class="border rounded-full bg-btn-secondary px-3">
+        <button
+          class="border rounded-full bg-btn-secondary px-3 items-center md:py-2 md:px-8"
+        >
           Learn more
         </button>
       </div>
     </div>
-    <div class="p-20">
-      <div class="flex flex-col items-center space-y-2">
-        <h2 class="text-choose py-2">WHY CHOOSE US</h2>
-        <p class="paragraph-choose">
+    <div class="p-10">
+      <div class="flex flex-col items-center space-y-2 md:space-y-0">
+        <h2 class="text-choose py-2 md:w-[100%]">WHY CHOOSE US</h2>
+        <p class="paragraph-choose md:w-[470px]">
           Problems trying to resolve the conflict between the two major realms
           of Classical physics: Newtonian mechanics
         </p>
       </div>
-      <div class="grid mx-auto items-center gap-8">
+      <div class="grid mx-auto md:grid-cols-3 items-center gap-8">
         <div class="card p-4">
           <div class="flex items-center space-x-2 p-2">
             <img src="./asserts/bag.svg" alt="" />
@@ -116,74 +144,251 @@
     </div>
     <div class="care">
       <div class="flex flex-col items-center p-10 space-y-3">
-        <h2 class="text-hero">We take care customers our all expert here.</h2>
-        <p class="paragraph w-56 text-center">
+        <h2 class="text-hero md:w-[461px]">
+          We take care customers our all expert here.
+        </h2>
+        <p class="paragraph w-56 md:w-[472px] text-center">
           Problems trying to resolve the conflict between the two major realms
           of Classical physics: Newtonian mechanics
         </p>
       </div>
       <div class="relative">
         <div class="relative">
-          <img class="w-full px-10" src="./asserts/cover.png" alt="" />
+          <img
+            class="w-full px-10 md:px-32 md:h-[442px] md:bg-cover"
+            src="./asserts/cover.png"
+            alt=""
+          />
           <img class="btn" src="./asserts/btn.svg" alt="" />
         </div>
-        <div class="w-full h-[400px] -mt-60 bg-[#0b2c33]"></div>
+        <div class="w-full h-[400px] md:h-[382px] -mt-60 bg-[#0b2c33]"></div>
       </div>
       <div class="flex flex-col items-center p-10 space-y-3">
-        <h2 class="text-hero w-60">What Clients Say</h2>
-        <p class="paragraph w-56 text-center">
+        <h2 class="text-hero w-60 md:w-[100%]">What Clients Say</h2>
+        <p class="paragraph w-56 text-center md:w-7/12">
           Problems trying to resolve the conflict between the two major realms
           of Classical physics: Newtonian mechanics
         </p>
       </div>
       <!-- start second card -->
-      <div>
-        <div class="grid mx-auto items-center gap-8 p-20">
-          <div class="bg-white p-4 border-prof">
-            <img class="py-1" src="./asserts/star.PNG" alt="" />
-            <p class="paragraph-card">
-              Slate helps you see how many more days you need to work to reach
-              your financial goal.
-            </p>
-            <div class="flex gap-2 py-2">
-              <img src="./asserts/Ellipse 2.png" alt="Elipse" />
-              <div>
-                <p class="text-name">Regina Miles</p>
-                <p class="prof">Designer</p>
-              </div>
+      <div class="grid mx-auto items-center gap-8 p-10 md:grid-cols-3">
+        <div class="card bg-white p-4">
+          <img src="./asserts/star.PNG" alt="" />
+          <p class="paragraph-card">
+            Slate helps you see how many more days you need to work to reach
+            your financial goal
+          </p>
+          <div class="flex gap-2 py-2">
+            <img src="./asserts/Ellipse 2.png" alt="Elipse" />
+            <div>
+              <p class="text-name">Regina Miles</p>
+              <p class="prof">Designer</p>
             </div>
           </div>
-          <div class="bg-white p-4 border-prof">
-            <img class="py-1 cursor-pointer" src="./asserts/star.PNG" alt="" />
-            <p class="paragraph-card">
-              Slate helps you see how many more days you need to work to reach
-              your financial goal.
-            </p>
-            <div class="flex gap-2 py-2">
-              <img src="./asserts/Ellipse 2 (1).png" alt="Elipse" />
-              <div>
-                <p class="text-name">Regina Miles</p>
-                <p class="prof">Designer</p>
-              </div>
+        </div>
+        <div class="card bg-white p-4">
+          <img src="./asserts/star.PNG" alt="" />
+          <p class="paragraph-card">
+            Slate helps you see how many more days you need to work to reach
+            your financial goal
+          </p>
+          <div class="flex gap-2 py-2">
+            <img src="./asserts/Ellipse 2 (1).png" alt="Elipse" />
+            <div>
+              <p class="text-name">Regina Miles</p>
+              <p class="prof">Designer</p>
             </div>
           </div>
-          <div class="bg-white p-4 border-prof">
-            <img class="py-1 cursor-pointer" src="./asserts/star.PNG" alt="" />
-            <p class="paragraph-card">
-              Slate helps you see how many more days you need to work to reach
-              your financial goal.
-            </p>
-            <div class="flex gap-2 py-2">
-              <img src="./asserts/Ellipse 2 (2).png" alt="Elipse" />
-              <div>
-                <p class="text-name">Regina Miles</p>
-                <p class="prof">Designer</p>
-              </div>
+        </div>
+        <div class="card bg-white p-4">
+          <img src="./asserts/star.PNG" alt="" />
+          <p class="paragraph-card">
+            Slate helps you see how many more days you need to work to reach
+            your financial goal
+          </p>
+          <div class="flex gap-2 py-2">
+            <img src="./asserts/Ellipse 2 (2).png" alt="Elipse" />
+            <div>
+              <p class="text-name">Regina Miles</p>
+              <p class="prof">Designer</p>
             </div>
           </div>
         </div>
       </div>
-      <!-- end card -->
+    </div>
+    <div class="p-20">
+      <div class="flex flex-col items-center space-y-2">
+        <h2 class="text-choose py-2 md:md-text">Meet Our Team</h2>
+        <p class="paragraph-choose">
+          Problems trying to resolve the conflict between the two major realms
+          of Classical physics: Newtonian mechanics
+        </p>
+      </div>
+      <div class="grid mx-auto items-center gap-8 md:grid-cols-3">
+        <div class="card pb-4">
+          <img src="./asserts/per.png" alt="" />
+          <div class="flex flex-col items-center space-y-2">
+            <div class="py-2">
+              <h5 class="h-met">Ben Jonson</h5>
+              <p class="p-met">Consultant</p>
+            </div>
+            <div class="flex space-x-2">
+              <img class="cursor-pointer" src="./asserts/social1.svg" alt="" />
+              <img class="cursor-pointer" src="./asserts/social.svg" alt="" />
+              <img class="cursor-pointer" src="./asserts/social2.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="card pb-4">
+          <img src="./asserts/per1.png" alt="" />
+          <div class="flex flex-col items-center space-y-2">
+            <div class="py-2">
+              <h5 class="h-met">Ashley Fletcher</h5>
+              <p class="p-met">CEO</p>
+            </div>
+            <div class="flex space-x-2">
+              <img class="cursor-pointer" src="./asserts/social1.svg" alt="" />
+              <img class="cursor-pointer" src="./asserts/social.svg" alt="" />
+              <img class="cursor-pointer" src="./asserts/social2.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="card pb-4">
+          <img src="./asserts/per.png" alt="" />
+          <div class="flex flex-col items-center space-y-2">
+            <div class="py-2">
+              <h5 class="h-met">Ben Jonson</h5>
+              <p class="p-met">Consultant</p>
+            </div>
+            <div class="flex space-x-2">
+              <img class="cursor-pointer" src="./asserts/social1.svg" alt="" />
+              <img class="cursor-pointer" src="./asserts/social.svg" alt="" />
+              <img class="cursor-pointer" src="./asserts/social2.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- bg-im -->
+    <div
+      style="background-image: url(./asserts/bg-c.png)"
+      class="w-full h-full bg-no-repeat bg-cover bg-center md:bg-right-bottom bg-right-left bg-fixed- p-20"
+    >
+      <div class="">
+        <p class="img-text">Contact Us</p>
+        <h2 class="img-title">Make an Appointment</h2>
+      </div>
+      <div class="grid mt-8 md:justify-start md:m-auto">
+        <div class="">
+          <input
+            type="text"
+            placeholder="Full Name"
+            class="w-full p-4 border-gray-100 rounded-lg mb-4"
+          />
+          <input
+            type="text"
+            placeholder="exemple@gmail.com"
+            class="p-4 w-full border-gray-100 rounded-lg mb-4"
+          />
+        </div>
+        <div>
+          <select
+            disabled
+            placeholder="please select"
+            class="text-sm border-gray-100 rounded-lg block w-full p-4 mb-4"
+          >
+            <option selected class="text-gray-400">please select</option>
+          </select>
+          <select
+            disabled
+            id="countries_disabled"
+            class="text-sm border-gray-100 rounded-lg block w-full p-4 mb-4"
+          >
+            <option class="text-gray-200">4:00 Available</option>
+          </select>
+        </div>
+        <textarea
+          cols="30"
+          rows="10"
+          class="w-full h-[140px] rounded-lg p-4"
+          placeholder="Message"
+        ></textarea>
+        <button
+          class="mt-6 bg-[#FFA62B] text-center p-4 text-white font-semibold rounded-lg md:w-4/6"
+        >
+          Book Appointment
+        </button>
+      </div>
+    </div>
+    <div class="p-20 flex flex-col md:flex-row md:justify-around">
+      <div class="px-10">
+        <h2 class="title-contact">Consulting Agency For Your Business</h2>
+        <p class="text-[#737373]">the quick fox jumps over the lazy dog</p>
+      </div>
+      <button
+        class="mt-6 bg-[#FFA62B] text-center p-4 text-white font-semibold rounded-lg"
+      >
+        Contact Us
+      </button>
+    </div>
+    <div class="bg-[#252B42] p-20 grid gap-8 md:items-center">
+      <div class="grid gap-8 md:grid-cols-2 md:bord-b">
+        <p class="text-white footer-text md:mb-4">KMarketer</p>
+        <div class="flex md:justify-end gap-4 md:mb-4">
+          <img src="./asserts/fb-f.svg" alt="" />
+          <img src="./asserts/inst-f.svg" alt="" />
+          <img src="./asserts/tw-f.svg" alt="" />
+          <img src="./asserts/yu-f.svg" alt="" />
+        </div>
+      </div>
+      <div class="text-white grid gap-6 md:grid-cols-6">
+        <div class="grid gap-2">
+          <h5 class="font-bold">Company Info</h5>
+          <a href="#" class="f-text md:text-[#BDBDBD]">About</a>
+          <a href="#" class="f-text md:text-[#BDBDBD]">Care</a>
+          <a href="#" class="f-text md:text-[#BDBDBD]">We are hiring</a>
+          <a href="#" class="f-text md:text-[#BDBDBD]">Blog</a>
+        </div>
+        <div class="grid gap-2">
+          <h5 class="font-bold">Legal</h5>
+          <a href="#" class="f-text md:text-[#BDBDBD]">About</a>
+          <a href="#" class="f-text md:text-[#BDBDBD]">Care</a>
+          <a href="#" class="f-text md:text-[#BDBDBD]">We are hiring</a>
+          <a href="#" class="f-text md:text-[#BDBDBD]">Blog</a>
+        </div>
+        <div class="grid gap-2">
+          <h5 class="font-bold">Features</h5>
+          <a href="#" class="f-text md:text-[#BDBDBD]">Business Marketing</a>
+          <a href="#" class="f-text md:text-[#BDBDBD]">User Analytic</a>
+          <a href="#" class="f-text md:text-[#BDBDBD]">Live Chat</a>
+          <a href="#" class="f-text md:text-[#BDBDBD]">Unlimited Support</a>
+        </div>
+        <div class="grid gap-2">
+          <h5 class="font-bold">Resources</h5>
+          <a href="#" class="f-text md:text-[#BDBDBD]">IOS & Android</a>
+          <a href="#" class="f-text md:text-[#BDBDBD]">Watch a Demo</a>
+          <a href="#" class="f-text md:text-[#BDBDBD]">Customers</a>
+          <a href="#" class="f-text md:text-[#BDBDBD]">API</a>
+        </div>
+        <div class="grid gap-2 md:col-span-2">
+          <h5 class="font-bold">Get In Touch</h5>
+          <div class="flex">
+            <input type="text" class="p-4" />
+            <button
+              class="bg-[#FFA62B] text-center p-4 text-white font-semibold"
+            >
+              Subscribe
+            </button>
+          </div>
+          <p class="f-text md:text-[#BDBDBD]">Lorem impsum dolor amit</p>
+        </div>
+      </div>
+    </div>
+    <div class="bg-[#16697A] text-center md:text-start px-20 h-[98px]">
+      <h6 class="text-white py-5">
+        Made With Love By <br class="md:hidden" />
+        Figmaland All Right Reserved
+      </h6>
     </div>
   </body>
 </html>

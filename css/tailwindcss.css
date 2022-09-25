@@ -13,9 +13,6 @@
     letter-spacing: 0.1px;
     color: #252b42;
   }
-  .mobilebg {
-    background-color: #f6f6f6;
-  }
   .text-hero {
     color: #252b42;
     font-weight: 700;
@@ -24,9 +21,25 @@
     text-align: center;
     letter-spacing: 0.2px;
   }
+  .h-met {
+    color: #252b42;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+  }
   .paragraph {
     font-weight: 500;
     font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+  }
+  .p-met {
+    font-weight: 500;
+    font-size: 12px;
     line-height: 20px;
     text-align: center;
     letter-spacing: 0.2px;
@@ -41,6 +54,16 @@
     color: #737373;
     width: 270px;
     height: 114px;
+  }
+  .md-text {
+    color: #252b42;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    width: 100%;
+    height: 70px;
   }
   .text-choose {
     color: #252b42;
@@ -130,5 +153,45 @@
   }
   .border-prof {
     border: 2px solid #e8e8e8;
+  }
+  .img-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252b42;
+  }
+  .img-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252b42;
+  }
+  .title-contact {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252b42;
+  }
+  .footer-text {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+  }
+  .f-text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+  }
+  .bord-b {
+    border-bottom: 1px solid #bdbdbd;
   }
 }
